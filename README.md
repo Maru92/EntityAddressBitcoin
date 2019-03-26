@@ -46,7 +46,7 @@ The current zipped version of the dataset is available [here](https://polybox.et
 ### Methodology
 
 
-The entity-address mapping was obtained in April 2018 by scraping [WalletExplorer](https://www.walletexplorer.com/). Five categories of interest (Exchange, Mining Pool, Gambling, Services, Historical) were scraped as per Wallet Explorer. 
+The entity-address mapping was obtained in April 2018 by scraping [WalletExplorer](https://www.walletexplorer.com/). Five categories of interest (Exchange, Mining Pool, Gambling, Services, Historical) were scraped as per Wallet Explorer. Adresses from the sections "old" weren't scrapped.
 
 
 The scraped dataset was enhanced using the multi-input (also known as common spending) clustering heuristic. This heuristic groups addresses which are inputs of the same transaction (see the paper and references therein for more details). We used BlockSci for interfacing with the Blockchain in order to recursively enhance the clusters. We ran it on the Blockchain of height below 514.9711, corresponding to blocks created before March 24th 2018, 15:19:02, which contains about 500.000.000 addresses.
