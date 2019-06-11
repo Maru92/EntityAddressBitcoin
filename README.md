@@ -20,13 +20,11 @@ This dataset made available here, together with the full 2010-2018 Bitcoin Block
 }
 
 @InProceedings{JBWD_CVPR19,
-  author    = {Marc Jourdan and
-               Sebastien Blandin and
-               Laura Wynter and
-               Pralhad Deshpande},
-  title     = {A Probabilistic Model of the Bitcoin Blockchain},
-  booktitle = {Computer Vision and Pattern Recognition Workshop (CVPRW), 2019},
-  pages     = {--},
+  author       = {Jourdan, Marc and Blandin, Sebastien and Wynter, Laura and Deshpande, Pralhad},
+  title        = {A Probabilistic Model of the Bitcoin Blockchain},
+  booktitle    = {Computer Vision and Pattern Recognition Workshop (CVPRW), 2019},
+  year         = {2019},
+  pages        = {--},
   organization = {IEEE}
 }
 ```
