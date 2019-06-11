@@ -10,7 +10,7 @@ We release this dataset with the intent of facilitating further research on Bitc
 This dataset made available here, together with the full 2010-2018 Bitcoin Blockchain graph in BlockSci format (which can be found on BlockSci, was used in the paper [*Characterizing Entities in the Bitcoin Blockchain*] (https://arxiv.org/abs/1810.11956), presented at the IEEE International Conference on Data Mining 2018 as well as in the paper [*A Probabilistic Model of the Bitcoin Blockchain*] (https://arxiv.org/abs/1812.05451). If you use this dataset, please cite the papers
 
 ```bibtex
-@InProceedings{Jourdan2018,
+@InProceedings{JBWD_ICDM18,
   author       = {Jourdan, Marc and Blandin, Sebastien and Wynter, Laura and Deshpande, Pralhad},
   title        = {Characterizing entities in the Bitcoin Blockchain},
   booktitle    = {Data Mining Workshop (ICDMW), 2018 IEEE International Conference on},
@@ -19,18 +19,15 @@ This dataset made available here, together with the full 2010-2018 Bitcoin Block
   organization = {IEEE}
 }
 
-@article{DBLP:journals/corr/abs-1812-05451,
+@InProceedings{JBWD_CVPR19,
   author    = {Marc Jourdan and
                Sebastien Blandin and
                Laura Wynter and
                Pralhad Deshpande},
   title     = {A Probabilistic Model of the Bitcoin Blockchain},
-  journal   = {CoRR},
-  volume    = {abs/1812.05451},
-  year      = {2018},
-  url       = {http://arxiv.org/abs/1812.05451},
-  archivePrefix = {arXiv},
-  eprint    = {1812.05451}
+  booktitle = {Computer Vision and Pattern Recognition Workshop (CVPRW), 2019},
+  pages     = {--},
+  organization = {IEEE}
 }
 ```
 
