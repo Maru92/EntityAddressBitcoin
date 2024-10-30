@@ -35,7 +35,7 @@ In the absence of BlockSci data, this dataset can be used to analyze the distrib
 ## Downloading the Dataset
 
 
-The current zipped version of the dataset is available [here](https://mybox.inria.fr/f/928021e03cb34daebd68/?dl=1). It is 1 GB and contains 30.331.700 addresses.
+The current zipped version of the dataset is available [here](https://drive.switch.ch/index.php/s/ag4OnNgwf7LhWFu). It is 1 GB and contains 30.331.700 addresses.
 
 
 ### Methodology
@@ -109,4 +109,4 @@ for n,t,exc in zip(num_list,type_list,exc_list):
 
 ### Further questions
 
-In case of any problem, please contact me at marc.jourdan@inria.fr
+In case of any problem, please contact me at marc.jourdan@epfl.ch
